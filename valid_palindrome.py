@@ -22,12 +22,12 @@ Example 3:
 
 # Space: O(1)
 # Time: O(n)
+# Notes: str.isdigit() checks if it is number. str.isalpha() checks if it is letter
 class Solution:
     """
     @param s: A string
     @return: Whether the string is a valid palindrome
     """
-
     def is_palindrome(self, s: str) -> bool:
         # write your code here
         n = len(s)
@@ -48,5 +48,5 @@ class Solution:
             
             i += 1
             j -= 1
-            
+
         return True
