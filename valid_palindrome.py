@@ -45,8 +45,8 @@ class Solution:
 
             if s[i].lower() != s[j].lower():
                 return False
-            else:
-                i += 1
-                j -= 1
-
+            
+            i += 1
+            j -= 1
+            
         return True
