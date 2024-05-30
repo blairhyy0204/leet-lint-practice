@@ -1,5 +1,5 @@
 """
-[Lint1352]Compare Version Numbers
+[Lint1352] Compare Version Numbers
 Link: https://www.lintcode.com/problem/1352
 
 Compare two version numbers version1 and version2.
